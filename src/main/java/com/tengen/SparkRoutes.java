@@ -5,6 +5,7 @@ import spark.Spark;
 /**
  * Created by Lior on 1/10/2015.
  */
+//this class demonstrates how to do get requests with sparkjava.
 public class SparkRoutes {
     public static void main(String[] args) {
         Spark.get("/", (request, response) -> "Hello World\n");
